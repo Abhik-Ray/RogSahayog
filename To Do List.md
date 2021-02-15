@@ -1,2 +1,2 @@
-- [x] ~~Set Up .csv format with all columns~~
-- [x] ~~Set up meeting with Jayanta Mondal~~
+- [] Set Up .csv format with all columns
+- [] Set up meeting with Jayanta Mondal
