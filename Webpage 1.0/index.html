@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>RogSahayog</title>
+    <!-- font awesom -->
+    <script src="https://kit.fontawesome.com/978d9f0710.js"></script>
+    <!-- custom cssm -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon"> <i class="fas fa-bars"></i> </span>
+        <h2>RogSahayog</h2>
+        <!-- <img src="./images/logo.svg" alt="store logo" /> -->
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-lungs-virus"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Disease Servey</h1>
+        <div class="input-container">
+          <select class="disease-select">
+            <option value='covid'>COVID-19</option>
+            <option value='malaria'>Malaria</option>
+              <option value='dengue'>Dengue Fever</option>
+            <option value='swineflu'>Swine Flu</option>
+            <option value='hiv'>HIV/AIDS</option>
+          </select>
+          <button class="banner-btn" id="disease-btn">Submit</button>
+        </div>
+      </div>
+    </header>
+    <!-- end of hero -->
+    
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- app js -->
+    <script src="app.js"></script>
+  </body>
+</html>
